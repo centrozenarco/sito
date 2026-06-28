@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> — Centro Zen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../../static/main.css?h=729f9757">
+  </head>
+  <body>
+    <!-- Top Navigation Bar -->
+    <header>
+      <div class="nav-container">
+        <div class="logo">
+          <a href="../../" style="text-decoration: none; color: inherit;">Centro Zen <span>L'Arco</span> ROMA</a>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="../../"
+                 >Il Centro</a>
+            </li>
+            <li>
+              <a href="../../insegnante/"
+                 >Il Maestro</a>
+            </li>
+            <li>
+              <a href="../"
+                 class="active">Pratica</a>
+            </li>
+            <li>
+              <a href="../../attivita/"
+                 >Eventi</a>
+            </li>
+            <li>
+              <a href="../../links/"
+                 >Links</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      
+  <h2></h2>
+  <h3><a href="pratica.htm">Pratica Zen</a> | <a href="meditazione.htm">Meditazione</a> | <a href="sutra.htm">Sutra</a> | <a href="kisa.htm">Kesa</a> | <a href="cerimonia.htm">Cerimonia del Tè</a> | <a href="scrittura.htm">Calligrafia</a> | <a href="letture.htm">Letture</a> | <a href="curiosita.htm">Curiosità</a>[cite: 2]</h3>
+
+
+    </main>
+  </body>
+</html>
