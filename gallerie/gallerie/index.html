@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gallerie</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.amber.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap"
           rel="stylesheet">
-    <link rel="stylesheet" href="../../static/main.css?h=c5bfdad4">
+    <link rel="stylesheet" href="../../static/main.css?h=2c772c38">
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/sw.js');
@@ -17,53 +19,31 @@
   </head>
   <body>
     <header>
-      <div class="nav-container">
-        <div class="logo">
-          <a href="../../"
-             >Il Centro</a>
-        </div>
-        <nav>
-          <ul>
-            <li>
-              <a href="../../attivita/"
-                 >Attivita</a>
-            </li>
-            <li>
-              <a href="../../insegnante/"
-                 >Il Maestro</a>
-            </li>
-            <li>
-              <a href="../../pratica/"
-                 >Pratica</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="../../"
+               >Il Centro</a>
+          </li>
+          <li>
+            <a href="../../attivita/"
+               >Attivita</a>
+          </li>
+          <li>
+            <a href="../../insegnante/"
+               >Il Maestro</a>
+          </li>
+          <li>
+            <a href="../../pratica/"
+               >Pratica</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <!-- second level menu -->
     
     
     
-    <!-- <div class="sidebar-menu"> -->
-    <!--  -->
-    <!--  -->
-    <!--  -->
-    <!--  -->
-    <!-- <span class="menu-title">gallerie</span> -->
-    <!-- <ul> -->
-    <!--  -->
-    <!--  -->
-    <!-- <a href="../gallerie_locale/" class="">gallerie_locale</a> -->
-    <!--  -->
-    <!-- <a href="../video/" class="">video</a> -->
-    <!--  -->
-    <!-- <a href="./" class="active">gallerie</a> -->
-    <!--  -->
-    <!-- </ul> -->
-    <!-- </div> -->
-    <!-- <div class="card-grid"> -->
-    <!--  -->
-    <!-- </div> -->
     <main class="container">
       
   <h2>gallerie</h2>
@@ -72,35 +52,17 @@
     </main>
   </body>
   <footer class="site-footer">
-    <div class="footer-container">
-      <!-- Column 1: About -->
+    <div class="footer-container grid">
       <div class="footer-col">
         <h3>
           Centro Zen <span>L'Arco</span>
         </h3>
       </div>
-      <!-- Column 2: Navigation -->
       <div class="footer-col">
         <h3>NAVIGA</h3>
-        <ul>
-          <li>
-            <a href="../../">Il Centro</a>
-          </li>
-          <li>
-            <a href="../../insegnante/">Il Maestro</a>
-          </li>
-          <li>
-            <a href="../../pratica/">Pratica</a>
-          </li>
-          <li>
-            <a href="../../attivita/">Eventi</a>
-          </li>
-          <li>
-            <a href="../../contatti/">Contatti</a>
-          </li>
-        </ul>
+        <nav>
+        </nav>
       </div>
-      <!-- Column 3: Contacts -->
       <div class="footer-col">
         <h3>CONTATTI</h3>
         <p>
@@ -114,7 +76,7 @@
     </div>
     <div class="footer-bottom">
       <p>&copy; 2026 Centro Zen L'Arco — Zenmon Ji</p>
-      <p>Testi di Dario Girolami</p>
+      <p class="footer-note">Testi di Dario Girolami</p>
     </div>
   </footer>
 </html>
