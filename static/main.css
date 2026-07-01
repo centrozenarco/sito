@@ -1,18 +1,23 @@
-:root {
+:root, html[data-theme="light"] {
+  color-scheme: light !important;
   --pico-font-family: "Cormorant", Georgia, serif;
-  --pico-primary: #d97743;
-  --pico-background-color: #fcfbfa;
-  --pico-color: #2d2b2a;
-  --pico-muted-color: #706b68;
+  --font-sans-fallback: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --pico-border-radius: 16px;
-  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0, 0, 0, 0.05);
-  --shadow-hover: 0 15px 40px rgba(0, 0, 0, 0.12), 0 4px 10px rgba(0, 0, 0, 0.06);
-  --font-sans-fallback: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
+  --pico-primary: #d97743;
+  --pico-background-color: #fdfcfb;
+  --pico-color: #3c3530 !important;
+  --pico-muted-color: #8c7f76 !important;
+  --warm-accent-bg: #f8f4ed;
+  --warm-card-bg: #fdfbf7;
+  --warm-border: rgba(217, 119, 67, 0.16);
+  --shadow-soft: 0 10px 30px rgba(60, 53, 48, 0.05), 0 1px 3px rgba(60, 53, 48, 0.03);
+  --shadow-hover: 0 15px 40px rgba(60, 53, 48, 0.1), 0 4px 12px rgba(60, 53, 48, 0.05)
 }
 body {
-  background: linear-gradient(180deg, #f2efe9 0%, #fcfbfa 300px);
+  background: linear-gradient(180deg, #ede7dc 0%, #fdfcfb 400px);
   background-repeat: no-repeat;
-  -webkit-font-smoothing: antialiased
+  -webkit-font-smoothing: antialiased;
+  color: var(--pico-color)
 }
 p, span, li, a, .category-menu, .sidebar-menu, .zcitation cite {
   font-family: var(--font-sans-fallback)
@@ -20,19 +25,22 @@ p, span, li, a, .category-menu, .sidebar-menu, .zcitation cite {
 main h3 {
   margin-top: 2rem;
   margin-bottom: 1rem;
-  text-align: center
+  text-align: center;
+  color: var(--pico-color)
 }
 main p {
   text-align: justify;
-  hyphens: auto
+  hyphens: auto;
+  line-height: 1.65
 }
 /* header */
 header {
-  background-color: rgba(252, 251, 250, 0.95);
+  background-color: rgba(253, 252, 251, 0.92);
+  backdrop-filter: blur(8px);
   position: sticky;
   top: 0;
   z-index: 100;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.03)
+  border-bottom: 1px solid var(--warm-border)
 }
 header nav {
   margin: 0 auto;
@@ -117,8 +125,8 @@ header nav ul li a.active {
   display: flex;
   gap: 1.5rem;
   align-items: flex-start;
-  background: #fdfaf6;
-  border: 1px solid rgba(0, 0, 0, 0.14);
+  background: var(--warm-card-bg);
+  border: 1px solid var(--warm-border);
   border-radius: var(--pico-border-radius);
   padding: 2.5rem;
   box-shadow: var(--shadow-soft);
@@ -173,8 +181,8 @@ header nav ul li a.active {
   display: flex;
   gap: 1.5rem;
   align-items: flex-start;
-  background: linear-gradient(to bottom, #fff 0%, #fdfaf6 100%);
-  border: 1px solid rgba(0, 0, 0, 0.14);
+  background: linear-gradient(to bottom, #fff 0%, var(--warm-card-bg) 100%);
+  border: 1px solid var(--warm-border);
   border-radius: var(--pico-border-radius);
   padding: 2.5rem;
   margin-bottom: 1rem
@@ -243,8 +251,8 @@ header nav ul li a.active {
 /* zcard */
 article.zcard {
   position: relative;
-  background: #fdfaf6;
-  border: 1px solid rgba(0, 0, 0, 0.14);
+  background: var(--warm-card-bg);
+  border: 1px solid var(--warm-border);
   border-radius: var(--pico-border-radius);
   padding: 2.5rem;
   box-shadow: var(--shadow-soft);
@@ -442,10 +450,10 @@ article.callig h3 {
 }
 /* Footer */
 footer.site-footer {
-  background-color: #f2efe9;
+  background-color: var(--warm-accent-bg);
   padding: 4rem 2rem 2rem;
   margin-top: 4rem;
-  border-top: 1px solid rgba(0, 0, 0, 0.05)
+  border-top: 1px solid var(--warm-border)
 }
 .footer-container {
   max-width: 1100px;
@@ -470,11 +478,11 @@ footer.site-footer {
   font-size: 0.95rem
 }
 .footer-bottom {
+  display: flex;
   max-width: 1100px;
   margin: 2rem auto 0;
   padding-top: 2rem;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  display: flex;
+  border-top: 1px solid rgba(60, 53, 48, 0.15);
   justify-content: space-between;
   font-size: 0.85rem;
   color: var(--pico-muted-color)
@@ -510,3 +518,22 @@ footer.site-footer {
 /* color: #aaa !important */
 /* } */
 /* } */
+@media (prefers-color-scheme: dark) {
+  :root, html[data-theme="light"], body {
+    color-scheme: light !important;
+    background-color: #fdfcfb !important;
+    color: var(--pico-color) !important
+  }
+  header {
+    background-color: rgba(253, 252, 251, 0.92) !important
+  }
+  header nav ul li a:hover, header nav ul li a.active, .category-menu a:hover, .category-menu a.active {
+    color: var(--pico-color) !important
+  }
+  .event-box, .event-box-right, .flex-card, article.zcard {
+    background: var(--warm-card-bg) !important
+  }
+  footer.site-footer {
+    background-color: var(--warm-accent-bg) !important
+  }
+}
