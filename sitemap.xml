@@ -1,190 +1,350 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://romazen.it/</loc>
-  </url>
       <url>
-        <loc>https://romazen.it/sitemap.xml</loc>
+      <loc>https://romazen.it/sitemap.xml</loc>
       </url>
       <url>
-        <loc>https://romazen.it/link/</loc>
+      <loc>https://romazen.it/en/sitemap.xml</loc>
       </url>
       <url>
-        <loc>https://romazen.it/mappa/</loc>
+      <loc>https://romazen.it/link/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/</loc>
-      </url>
-        
-      <url>
-        <loc>https://romazen.it/insegnante/zenkei-blanche-hartman/</loc>
+      <loc>https://romazen.it/en/link/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/interviste/</loc>
-      </url>
-        
-      <url>
-        <loc>https://romazen.it/insegnante/interviste/giubileo-interreligioso-alla-porta-santa-di-san-pietro/</loc>
+      <loc>https://romazen.it/mappa/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/interviste/il-kudara-kannon/</loc>
+      <loc>https://romazen.it/en/mappa/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/interviste/sutta-pitaka/</loc>
+      <loc>https://romazen.it/insegnante/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/interviste/mindfulness-dharma-e-neuroscienze/</loc>
+      <loc>https://romazen.it/en/insegnante/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/interviste/donne-zen-donne-di-luce/</loc>
+      <loc>https://romazen.it/insegnante/zenkei-blanche-hartman/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/interviste/guarire-il-cuore/</loc>
+      <loc>https://romazen.it/en/insegnante/zenkei-blanche-hartman/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/interviste/il-satori-lilluminazione-nello-zen-soto/</loc>
+      <loc>https://romazen.it/insegnante/interviste/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/interviste/quando-un-bocciolo-cade/</loc>
+      <loc>https://romazen.it/en/insegnante/interviste/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/interviste/meditare-al-liceo/</loc>
+      <loc>https://romazen.it/insegnante/interviste/giubileo-interreligioso-alla-porta-santa-di-san-pietro/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/interviste/la-statua-del-buddha-a-sarnath/</loc>
+      <loc>https://romazen.it/en/insegnante/interviste/giubileo-interreligioso-alla-porta-santa-di-san-pietro/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/interviste/meditare-nellinferno-vivente-di-san-quintino/</loc>
+      <loc>https://romazen.it/insegnante/interviste/il-kudara-kannon/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/interviste/cappellani-buddhisti/</loc>
+      <loc>https://romazen.it/en/insegnante/interviste/il-kudara-kannon/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/interviste/taima-mandara/</loc>
+      <loc>https://romazen.it/insegnante/interviste/sutta-pitaka/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/linda/</loc>
+      <loc>https://romazen.it/en/insegnante/interviste/sutta-pitaka/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/shunryu-suzuki-roshi/</loc>
+      <loc>https://romazen.it/insegnante/interviste/mindfulness-dharma-e-neuroscienze/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/discorsi-di-dharma/</loc>
-      </url>
-        
-      <url>
-        <loc>https://romazen.it/insegnante/discorsi-di-dharma/zen-e-karate/</loc>
+      <loc>https://romazen.it/en/insegnante/interviste/mindfulness-dharma-e-neuroscienze/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/discorsi-di-dharma/tagliare-lerba-che-cresce/</loc>
+      <loc>https://romazen.it/insegnante/interviste/donne-zen-donne-di-luce/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/discorsi-di-dharma/dharma_roshi/</loc>
+      <loc>https://romazen.it/en/insegnante/interviste/donne-zen-donne-di-luce/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/discorsi-di-dharma/tai-chi-chuan/</loc>
+      <loc>https://romazen.it/insegnante/interviste/guarire-il-cuore/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/discorsi-di-dharma/sandokai/</loc>
+      <loc>https://romazen.it/en/insegnante/interviste/guarire-il-cuore/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/discorsi-di-dharma/retta-concentrazione/</loc>
+      <loc>https://romazen.it/insegnante/interviste/il-satori-lilluminazione-nello-zen-soto/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/discorsi-di-dharma/la-questua/</loc>
+      <loc>https://romazen.it/en/insegnante/interviste/il-satori-lilluminazione-nello-zen-soto/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/discorsi-di-dharma/la-volpe-di-baizhang/</loc>
+      <loc>https://romazen.it/insegnante/interviste/quando-un-bocciolo-cade/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/discorsi-di-dharma/zazen-la-via-della-presenza-di-spirito/</loc>
+      <loc>https://romazen.it/en/insegnante/interviste/quando-un-bocciolo-cade/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/corso_persone_sieropositive/</loc>
+      <loc>https://romazen.it/insegnante/interviste/meditare-al-liceo/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/insegnante/la-via-interiore/</loc>
+      <loc>https://romazen.it/en/insegnante/interviste/meditare-al-liceo/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/sitemapxml/</loc>
+      <loc>https://romazen.it/insegnante/interviste/la-statua-del-buddha-a-sarnath/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/attivita/</loc>
-      </url>
-        
-      <url>
-        <loc>https://romazen.it/attivita/calendar.ics</loc>
+      <loc>https://romazen.it/en/insegnante/interviste/la-statua-del-buddha-a-sarnath/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/attivita/dove/</loc>
+      <loc>https://romazen.it/insegnante/interviste/meditare-nellinferno-vivente-di-san-quintino/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/attivita/gallerie/</loc>
+      <loc>https://romazen.it/en/insegnante/interviste/meditare-nellinferno-vivente-di-san-quintino/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/attivita/eventi/</loc>
-      </url>
-        
-      <url>
-        <loc>https://romazen.it/attivita/eventi/mente-di-principiante/</loc>
+      <loc>https://romazen.it/insegnante/interviste/cappellani-buddhisti/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/attivita/eventi/lo-zen-e-la-bibbia/</loc>
+      <loc>https://romazen.it/en/insegnante/interviste/cappellani-buddhisti/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/attivita/eventi/costruire-la-fraternita-attraverso-il-dialogo-e-la-collaborazione-buddhisti-cristiani-indu-giainisti-e-sikh-in-europa/</loc>
+      <loc>https://romazen.it/insegnante/interviste/taima-mandara/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/attivita/suzuki-roshi/</loc>
+      <loc>https://romazen.it/en/insegnante/interviste/taima-mandara/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/attivita/orari/</loc>
+      <loc>https://romazen.it/insegnante/linda/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/pratica/</loc>
-      </url>
-        
-      <url>
-        <loc>https://romazen.it/pratica/sutra/</loc>
+      <loc>https://romazen.it/en/insegnante/linda/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/pratica/curiosita/</loc>
+      <loc>https://romazen.it/insegnante/shunryu-suzuki-roshi/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/pratica/calligrafia/</loc>
+      <loc>https://romazen.it/en/insegnante/shunryu-suzuki-roshi/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/pratica/letture/</loc>
-      </url>
-        
-      <url>
-        <loc>https://romazen.it/pratica/letture/lo-zen-soto-e-i-koan/</loc>
+      <loc>https://romazen.it/insegnante/discorsi-di-dharma/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/pratica/letture/tornare-a-casa/</loc>
+      <loc>https://romazen.it/en/insegnante/discorsi-di-dharma/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/pratica/letture/il-sorriso-della-montagna/</loc>
+      <loc>https://romazen.it/insegnante/discorsi-di-dharma/zen-e-karate/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/pratica/letture/meditazione-zen-la-via-del-bodhisattva/</loc>
+      <loc>https://romazen.it/en/insegnante/discorsi-di-dharma/zen-e-karate/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/pratica/letture/cetriolo-storto/</loc>
+      <loc>https://romazen.it/insegnante/discorsi-di-dharma/tagliare-lerba-che-cresce/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/pratica/letture/ri-legature-buddhiste/</loc>
+      <loc>https://romazen.it/en/insegnante/discorsi-di-dharma/tagliare-lerba-che-cresce/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/pratica/kesa/</loc>
+      <loc>https://romazen.it/insegnante/discorsi-di-dharma/dharma_roshi/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/pratica/cerimonia/</loc>
+      <loc>https://romazen.it/en/insegnante/discorsi-di-dharma/dharma_roshi/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/pratica/meditazione/</loc>
+      <loc>https://romazen.it/insegnante/discorsi-di-dharma/tai-chi-chuan/</loc>
       </url>
       <url>
-        <loc>https://romazen.it/pratica/letture_rami/</loc>
+      <loc>https://romazen.it/en/insegnante/discorsi-di-dharma/tai-chi-chuan/</loc>
       </url>
-</urlset>
+      <url>
+      <loc>https://romazen.it/insegnante/discorsi-di-dharma/sandokai/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/insegnante/discorsi-di-dharma/sandokai/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/insegnante/discorsi-di-dharma/retta-concentrazione/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/insegnante/discorsi-di-dharma/retta-concentrazione/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/insegnante/discorsi-di-dharma/la-questua/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/insegnante/discorsi-di-dharma/la-questua/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/insegnante/discorsi-di-dharma/la-volpe-di-baizhang/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/insegnante/discorsi-di-dharma/la-volpe-di-baizhang/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/insegnante/discorsi-di-dharma/zazen-la-via-della-presenza-di-spirito/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/insegnante/discorsi-di-dharma/zazen-la-via-della-presenza-di-spirito/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/insegnante/corso_persone_sieropositive/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/insegnante/corso_persone_sieropositive/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/insegnante/la-via-interiore/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/insegnante/la-via-interiore/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/attivita/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/attivita/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/attivita/calendar.ics</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/attivita/calendar.ics</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/attivita/dove/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/attivita/dove/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/attivita/gallerie/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/attivita/gallerie/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/attivita/eventi/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/attivita/eventi/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/attivita/eventi/mente-di-principiante/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/attivita/eventi/mente-di-principiante/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/attivita/eventi/lo-zen-e-la-bibbia/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/attivita/eventi/lo-zen-e-la-bibbia/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/attivita/eventi/costruire-la-fraternita-attraverso-il-dialogo-e-la-collaborazione-buddhisti-cristiani-indu-giainisti-e-sikh-in-europa/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/attivita/eventi/costruire-la-fraternita-attraverso-il-dialogo-e-la-collaborazione-buddhisti-cristiani-indu-giainisti-e-sikh-in-europa/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/attivita/suzuki-roshi/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/attivita/suzuki-roshi/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/attivita/orari/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/attivita/orari/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/pratica/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/pratica/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/pratica/sutra/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/pratica/sutra/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/pratica/curiosita/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/pratica/curiosita/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/pratica/calligrafia/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/pratica/calligrafia/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/pratica/letture/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/pratica/letture/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/pratica/letture/lo-zen-soto-e-i-koan/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/pratica/letture/lo-zen-soto-e-i-koan/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/pratica/letture/tornare-a-casa/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/pratica/letture/tornare-a-casa/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/pratica/letture/il-sorriso-della-montagna/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/pratica/letture/il-sorriso-della-montagna/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/pratica/letture/meditazione-zen-la-via-del-bodhisattva/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/pratica/letture/meditazione-zen-la-via-del-bodhisattva/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/pratica/letture/cetriolo-storto/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/pratica/letture/cetriolo-storto/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/pratica/letture/ri-legature-buddhiste/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/pratica/letture/ri-legature-buddhiste/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/pratica/kesa/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/pratica/kesa/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/pratica/cerimonia/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/pratica/cerimonia/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/pratica/meditazione/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/pratica/meditazione/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/pratica/letture_rami/</loc>
+      </url>
+      <url>
+      <loc>https://romazen.it/en/pratica/letture_rami/</loc>
+      </url>
+  </urlset>

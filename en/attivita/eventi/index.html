@@ -1,5 +1,3 @@
-<a href="/attivita/calendar.ics"
-   aria-label="Scarica il calendario degli eventi in formato iCal">Iscriviti al calendario degli eventi</a>
 
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
@@ -13,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap"
           rel="stylesheet">
-    <link rel="stylesheet" href="../../../static/main.css?h=f3a24c3c">
+    <link rel="stylesheet" href="../../../static/main.css?h=f94f0920">
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/sw.js');
@@ -66,7 +64,16 @@
     <!-- </div> -->
     <main class="container">
       
-  <h1>Eventi</h1>
+  <h1>
+    Eventi
+    <a href="../../../attivita/calendar.ics"
+       class="ical-link"
+       data-tooltip="Segui il calendario"
+       data-placement="top"
+       aria-label="Scarica il calendario degli eventi in formato iCal">
+      <img src="../../../static/calendar.svg" alt="">
+    </a>
+  </h1>
   <div class="events-page">
     
       

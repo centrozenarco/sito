@@ -125,6 +125,9 @@ header nav ul li a.active {
 .events-page-item {
   scroll-margin-top: 140px
 }
+.events-page-item ul li {
+  list-style-type: none
+}
 /* event-box */
 .event-box, .event-box-right {
   display: flex;
@@ -179,6 +182,13 @@ header nav ul li a.active {
 .event-box.clickable:hover, .event-box-right.clickable:hover {
   transform: translatey(-3px);
   box-shadow: 0 15px 40px rgba(61, 51, 45, 0.12), 0 4px 12px rgba(61, 51, 45, 0.06)
+}
+/* Calendar */
+.ical-icon {
+  width: 1em;
+  height: 1em;
+  margin: 0;
+  display: block
 }
 /* Flex-card */
 .flex-card {
