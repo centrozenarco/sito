@@ -190,6 +190,13 @@ header nav ul li a.active {
   margin: 0;
   display: block
 }
+.ical-link {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  text-decoration: none;
+  margin-right: 4px
+}
 /* Flex-card */
 .flex-card {
   position: relative;
