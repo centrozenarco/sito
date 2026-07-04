@@ -1,14 +1,114 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Centro Zen L'Arco//Eventi//IT
+PRODID:-//Centro Zen L Arco//Eventi//IT
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Eventi e Seminari
-
-  
-
-  
-
-  
-
+BEGIN:VEVENT
+SUMMARY:Mente Zen - meditazione e insegnamenti Zen in modalità telematica
+DTSTART;TZID=Europe/Rome:20260603T200000
+UID:mente-di-principiante-0@romazen.it
+DESCRIPTION:con Dario Doshin Girolami - Vedi i dettagli sul sito.
+URL:https://romazen.it/attivita/eventi/mente-di-principiante/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mente Zen - meditazione e insegnamenti Zen in modalità telematica
+DTSTART;TZID=Europe/Rome:20260610T200000
+UID:mente-di-principiante-1@romazen.it
+DESCRIPTION:con Dario Doshin Girolami - Vedi i dettagli sul sito.
+URL:https://romazen.it/attivita/eventi/mente-di-principiante/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mente Zen - meditazione e insegnamenti Zen in modalità telematica
+DTSTART;TZID=Europe/Rome:20260617T200000
+UID:mente-di-principiante-2@romazen.it
+DESCRIPTION:con Dario Doshin Girolami - Vedi i dettagli sul sito.
+URL:https://romazen.it/attivita/eventi/mente-di-principiante/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mente Zen - meditazione e insegnamenti Zen in modalità telematica
+DTSTART;TZID=Europe/Rome:20260624T200000
+UID:mente-di-principiante-3@romazen.it
+DESCRIPTION:con Dario Doshin Girolami - Vedi i dettagli sul sito.
+URL:https://romazen.it/attivita/eventi/mente-di-principiante/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lo Zen e la Bibbia
+DTSTART;TZID=Europe/Rome:20260312T160000
+UID:lo-zen-e-la-bibbia-0@romazen.it
+DESCRIPTION:come affrontare i passi della Bibbia come koan - Vedi i dettag
+ li sul sito.
+URL:https://romazen.it/attivita/eventi/lo-zen-e-la-bibbia/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lo Zen e la Bibbia
+DTSTART;TZID=Europe/Rome:20260419T160000
+UID:lo-zen-e-la-bibbia-1@romazen.it
+DESCRIPTION:come affrontare i passi della Bibbia come koan - Vedi i dettag
+ li sul sito.
+URL:https://romazen.it/attivita/eventi/lo-zen-e-la-bibbia/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lo Zen e la Bibbia
+DTSTART;TZID=Europe/Rome:20260402T160000
+UID:lo-zen-e-la-bibbia-2@romazen.it
+DESCRIPTION:come affrontare i passi della Bibbia come koan - Vedi i dettag
+ li sul sito.
+URL:https://romazen.it/attivita/eventi/lo-zen-e-la-bibbia/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lo Zen e la Bibbia
+DTSTART;TZID=Europe/Rome:20260416T160000
+UID:lo-zen-e-la-bibbia-3@romazen.it
+DESCRIPTION:come affrontare i passi della Bibbia come koan - Vedi i dettag
+ li sul sito.
+URL:https://romazen.it/attivita/eventi/lo-zen-e-la-bibbia/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lo Zen e la Bibbia
+DTSTART;TZID=Europe/Rome:20260423T160000
+UID:lo-zen-e-la-bibbia-4@romazen.it
+DESCRIPTION:come affrontare i passi della Bibbia come koan - Vedi i dettag
+ li sul sito.
+URL:https://romazen.it/attivita/eventi/lo-zen-e-la-bibbia/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lo Zen e la Bibbia
+DTSTART;TZID=Europe/Rome:20260430T160000
+UID:lo-zen-e-la-bibbia-5@romazen.it
+DESCRIPTION:come affrontare i passi della Bibbia come koan - Vedi i dettag
+ li sul sito.
+URL:https://romazen.it/attivita/eventi/lo-zen-e-la-bibbia/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Costruire la fraternità attraverso il dialogo e la collaborazione
+DTSTART;TZID=Europe/Rome:20260623T100000
+UID:costruire-la-fraternita-attraverso-il-dialogo-e-la-collaborazione-budd
+ histi-cristiani-indu-giainisti-e-sikh-in-europa-0@romazen.it
+DESCRIPTION:Buddhisti\, Cristiani\, Indù\, Giainisti e Sikh in Europa - V
+ edi i dettagli sul sito.
+URL:https://romazen.it/attivita/eventi/costruire-la-fraternita-attraverso-
+ il-dialogo-e-la-collaborazione-buddhisti-cristiani-indu-giainisti-e-sikh-i
+ n-europa/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Costruire la fraternità attraverso il dialogo e la collaborazione
+DTSTART;TZID=Europe/Rome:20260624T123000
+UID:costruire-la-fraternita-attraverso-il-dialogo-e-la-collaborazione-budd
+ histi-cristiani-indu-giainisti-e-sikh-in-europa-1@romazen.it
+DESCRIPTION:Buddhisti\, Cristiani\, Indù\, Giainisti e Sikh in Europa - V
+ edi i dettagli sul sito.
+URL:https://romazen.it/attivita/eventi/costruire-la-fraternita-attraverso-
+ il-dialogo-e-la-collaborazione-buddhisti-cristiani-indu-giainisti-e-sikh-i
+ n-europa/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Buddha dentro - Insegnamenti Zen per chi si sente prigioniero
+DTSTART;TZID=Europe/Rome:20260507T180000
+UID:buddha-dentro-0@romazen.it
+DESCRIPTION:Presentazione del libro di Dario Doshin Girolami - Vedi i dett
+ agli sul sito.
+URL:https://romazen.it/attivita/eventi/buddha-dentro/
+END:VEVENT
 END:VCALENDAR
+
