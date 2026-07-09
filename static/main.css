@@ -525,6 +525,32 @@ article.callig h3 {
   max-height: 90vh;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)
 }
+/* Simple zoombox */
+img.zoombox {
+  float: right;
+  margin: 0 0 1rem 1rem;
+  max-width: 150px;
+  cursor: zoom-in;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 10;
+  position: relative
+}
+img.left {
+  float: left;
+  margin: 0 1rem 1rem 0
+}
+img.zoombox:hover {
+  outline: none;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  z-index: 999
+}
+img.zoombox:active {
+  outline: none;
+  cursor: zoom-out;
+  transform: scale(2) translate(-25%, 25%);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  z-index: 999
+}
 /* Footer */
 footer.site-footer {
   background-color: var(--warm-accent-bg);
