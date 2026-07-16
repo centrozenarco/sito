@@ -8,9 +8,11 @@
 :root {
   --pico-font-family: "Cormorant", Georgia, serif;
   --font-sans-fallback: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --pico-border-radius: 16px;
-  --pico-primary: #d46a32;
+  --pico-border-radius: 16px
+}
+[data-theme="light"], :root:not([data-theme="dark"]) {
   color-scheme: light;
+  --pico-primary: #d46a32;
   --gradient-start: #e8ded1;
   --pico-background-color: #faf5ed;
   --pico-color: #3d332d;
@@ -22,22 +24,21 @@
   --shadow-soft: 0 10px 30px rgba(61, 51, 45, 0.04), 0 1px 3px rgba(61, 51, 45, 0.02);
   --shadow-hover: 0 15px 40px rgba(61, 51, 45, 0.15), 0 4px 12px rgba(61, 51, 45, 0.04)
 }
-/* dark mode */
+[data-theme="dark"], :root:not([data-theme="light"]) {
+  color-scheme: dark;
+  --pico-primary: #e07b43;
+  --gradient-start: #1c1613;
+  --pico-background-color: #14100e;
+  --pico-color: #f0e6df;
+  --pico-muted-color: #a39284;
+  --warm-accent-bg: #221a15;
+  --header-bg: rgba(43, 35, 30, 0.95) !important;
+  --warm-card-bg: #231c18 !important;
+  --warm-border: rgba(224, 123, 67, 0.25);
+  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.5);
+  --shadow-hover: 0 15px 40px rgba(0, 0, 0, 0.7)
+}
 @media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: dark;
-    --pico-primary: #e07b43;
-    --gradient-start: #1c1613;
-    --pico-background-color: #14100e;
-    --pico-color: #f0e6df;
-    --pico-muted-color: #a39284;
-    --warm-accent-bg: #221a15;
-    --header-bg: rgba(43, 35, 30, 0.95) !important;
-    --warm-card-bg: #231c18 !important;
-    --warm-border: rgba(224, 123, 67, 0.25);
-    --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.5);
-    --shadow-hover: 0 15px 40px rgba(0, 0, 0, 0.7)
-  }
   header {
     background-color: var(--header-bg) !important
   }
@@ -58,30 +59,6 @@ body {
   background-repeat: no-repeat;
   -webkit-font-smoothing: antialiased
 }
-/* body { */
-/* background: linear-gradient(180deg, var(--gradient-start) 0%, var(--pico-background-color) 300px) no-repeat; */
-/* background-color: var(--pico-background-color); */
-/* -webkit-font-smoothing: antialiased; */
-/* color: var(--pico-color) */
-/* } */
-/* body::before { */
-/* content: ""; */
-/* position: fixed; */
-/* top: 100px; */
-/* left: -40px; */
-/* width: 100vw; */
-/* height: 100vh; */
-/* background-size: 200%; */
-/* background-image: url(/bg.svg); */
-/* opacity: 0.02; */
-/* pointer-events: none; */
-/* z-index: 0 */
-/* } */
-/* .event-box { */
-/* position: relative; */
-/* z-index: 1; */
-/* background-color: var(--pico-background-color) */
-/* } */
 p, span, li, a, .category-menu, .sidebar-menu, .zcitation cite {
   font-family: var(--font-sans-fallback)
 }
@@ -96,7 +73,6 @@ main p {
   hyphens: auto;
   line-height: 1.65
 }
-/* header */
 header {
   background-color: rgba(253, 252, 251, 0.92);
   backdrop-filter: blur(8px);
@@ -159,7 +135,6 @@ header nav ul li a.active {
     gap: 1.5rem
   }
 }
-/* */
 .zcitation {
   margin: 3rem 0;
   padding-left: 2rem;
@@ -183,14 +158,12 @@ header nav ul li a.active {
   color: var(--pico-muted-color);
   font-style: normal
 }
-/* eventi.html */
 .events-page-item {
   scroll-margin-top: 140px
 }
 .events-page-item ul li {
   list-style-type: none
 }
-/* event-box */
 .event-box, .event-box-right {
   display: flex;
   gap: 1.5rem;
@@ -245,7 +218,6 @@ header nav ul li a.active {
   transform: translatey(-3px);
   box-shadow: 0 15px 40px rgba(61, 51, 45, 0.12), 0 4px 12px rgba(61, 51, 45, 0.06)
 }
-/* Calendar */
 .ical-icon {
   width: 1em;
   height: 1em;
@@ -259,7 +231,6 @@ header nav ul li a.active {
   text-decoration: none;
   transform: translatey(-3px)
 }
-/* Flex-card */
 .flex-card {
   position: relative;
   display: flex;
@@ -315,7 +286,6 @@ header nav ul li a.active {
     text-align: center
   }
 }
-/* galleria */
 .gallery-grid {
   display: flex;
   flex-wrap: wrap;
@@ -331,7 +301,6 @@ header nav ul li a.active {
 .glightbox-hidden {
   display: none !important
 }
-/* zcard */
 article.zcard {
   position: relative;
   background: var(--warm-card-bg);
@@ -385,7 +354,6 @@ article.zcard h3 {
   font-size: 0.95rem;
   line-height: 1.6
 }
-/* Card for calligrafie */
 article.callig img {
   display: block;
   width: auto !important;
@@ -396,7 +364,6 @@ article.callig img {
 article.callig h3 {
   text-align: center
 }
-/* Hero */
 .hero-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -466,7 +433,6 @@ article.callig h3 {
     gap: 16px
   }
 }
-/* second level menu */
 .category-menu {
   display: flex !important;
   flex-direction: row !important;
@@ -503,7 +469,6 @@ article.callig h3 {
     gap: 1.2rem
   }
 }
-/* zoomable image */
 .zoom-check {
   display: none
 }
@@ -531,7 +496,6 @@ article.callig h3 {
   max-height: 90vh;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)
 }
-/* Simple zoombox */
 img.zoombox {
   border-radius: 6px;
   float: right;
@@ -561,7 +525,6 @@ img.zoombox:active {
 img.zoombox.left:active {
   transform: scale(2) translate(25%, 25%)
 }
-/* Footer */
 footer.site-footer {
   background-color: var(--warm-accent-bg);
   padding: 1.2rem 2rem 0.8rem;
